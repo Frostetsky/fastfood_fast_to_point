@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.4</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>fastfood.fast.to.point</groupId>
+    <artifactId>fastfood_fast_to_point</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>fastfood_fast_to_point</name>
+    <description>fastfood_fast_to_point</description>
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+
+    <modules>
+        <module>ecosystem-admin-service</module>
+        <module>ecosystem-api-gateway-service</module>
+        <module>ecosystem-authorization-service</module>
+        <module>ecosystem-config-service</module>
+        <module>ecosystem-delivery-service</module>
+        <module>ecosystem-dish-service</module>
+        <module>ecosystem-kitchen-service</module>
+        <module>ecosystem-notification-service</module>
+        <module>ecosystem-order-service</module>
+        <module>ecosystem-payment-service</module>
+        <module>ecosystem-vault-service</module>
+        <module>ecosystem-discovery-service</module>
+        <module>ecosystem-common</module>
+    </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
