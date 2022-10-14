@@ -1,32 +1,33 @@
-ecosystem-admin-service - сервис администратора (верхнеуровневый сервис)
+ecosystem-admin-service - СЃРµСЂРІРёСЃ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂР° (РІРµСЂС…РЅРµСѓСЂРѕРІРЅРµРІС‹Р№ СЃРµСЂРІРёСЃ)
 
-ecosystem-dish-service - сервис блюд
+ecosystem-dish-service - СЃРµСЂРІРёСЃ Р±Р»СЋРґ
 
-ecosystem-order-service - сервис заказов
+ecosystem-order-service - СЃРµСЂРІРёСЃ Р·Р°РєР°Р·РѕРІ
 
-ecosystem-delivery-service - сервис доставки
+ecosystem-delivery-service - СЃРµСЂРІРёСЃ РґРѕСЃС‚Р°РІРєРё
 
-ecosystem-kitchen-service - сервис кухни
+ecosystem-kitchen-service - СЃРµСЂРІРёСЃ РєСѓС…РЅРё
 
-ecosystem-payment-service - сервис платежей
+ecosystem-payment-service - СЃРµСЂРІРёСЃ РїР»Р°С‚РµР¶РµР№
 
-ecosystem-notification-service - сервис уведомлений
+ecosystem-notification-service - СЃРµСЂРІРёСЃ СѓРІРµРґРѕРјР»РµРЅРёР№
 
-ecosystem-common - доменные модели
+ecosystem-common - РґРѕРјРµРЅРЅС‹Рµ РјРѕРґРµР»Рё
 
-ecosystem-authorization-service - сервис авторизации (OAuth 2.0)
+ecosystem-authorization-service - СЃРµСЂРІРёСЃ Р°РІС‚РѕСЂРёР·Р°С†РёРё (OAuth 2.0)
 
-ecosystem-api-gateway-service - единый шлюз входа
+ecosystem-api-gateway-service - РµРґРёРЅС‹Р№ С€Р»СЋР· РІС…РѕРґР°
 
-ecosystem-vault-service - сервис хранения secret-ов
+ecosystem-vault-service - СЃРµСЂРІРёСЃ С…СЂР°РЅРµРЅРёСЏ secret-РѕРІ
 
-ecosystem-config-service - сервис конфигурации
+ecosystem-config-service - СЃРµСЂРІРёСЃ РєРѕРЅС„РёРіСѓСЂР°С†РёРё
 
-ecosystem-discovery-service - сервис обнаружения
+ecosystem-discovery-service - СЃРµСЂРІРёСЃ РѕР±РЅР°СЂСѓР¶РµРЅРёСЏ
 
-Дополнительно в проекте используется Apache Kafka для обмена данными между сервисами
-Для работы с сессиями и кешами используется Redis
+Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕ РІ РїСЂРѕРµРєС‚Рµ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ Apache Kafka РґР»СЏ РѕР±РјРµРЅР° РґР°РЅРЅС‹РјРё РјРµР¶РґСѓ СЃРµСЂРІРёСЃР°РјРё.
 
-Продакшен мод подразумевает использование до 4-ёх инстансов основных сервисов и распределение нагрузки
-между ними
+Р”Р»СЏ СЂР°Р±РѕС‚С‹ СЃ СЃРµСЃСЃРёСЏРјРё Рё РєРµС€Р°РјРё РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ Redis.
+
+РџСЂРѕРґР°РєС€РµРЅ РјРѕРґ РїРѕРґСЂР°Р·СѓРјРµРІР°РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РґРѕ 4-С‘С… РёРЅСЃС‚Р°РЅСЃРѕРІ РѕСЃРЅРѕРІРЅС‹С… СЃРµСЂРІРёСЃРѕРІ Рё СЂР°СЃРїСЂРµРґРµР»РµРЅРёРµ РЅР°РіСЂСѓР·РєРё
+РјРµР¶РґСѓ РЅРёРјРё.
 
